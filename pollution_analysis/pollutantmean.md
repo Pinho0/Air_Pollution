@@ -1,8 +1,12 @@
+This repository contains R scripts for analyzing air pollution data.
+
+# pollutantmean.R 
+
 Analysis of pollution monitoring data for fine particulate matter (PM) air pollution across 332 locations in the United States.
 
 Link to the data use on this project -> https://d396qusza40orc.cloudfront.net/rprog%2Fdata%2Fspecdata.zip
 
-## Function 'pollutantmean' 
+### Function 'pollutantmean' 
 Calculates the mean of a pollutant (sulfate or nitrate) across a specified list of monitors. 
 #### Use example:
 
@@ -11,7 +15,7 @@ Calculates the mean of a pollutant (sulfate or nitrate) across a specified list 
   pollutantmean("specdata", "nitrate", 23)
   ```
  
-## Function 'complete' 
+### Function 'complete' 
 Reads a directory full of files and reports the number of completely observed cases (cases where there is a mesurement of sulfate and nitrate) in each data file. The function return a data frame where the first column is the name of the file and the second column is the number of complete cases.
 #### Use example:
 
@@ -20,7 +24,7 @@ Reads a directory full of files and reports the number of completely observed ca
   complete("specdata", 30:25)
   ```
 
-## Function 'corr' 
+### Function 'corr' 
 Takes a directory of data files and a threshold for complete cases and calculates the correlation between sulfate and nitrate for monitor locations where the number of completely observed cases is greater than the threshold. The function return a vector of correlations for the monitors that meet the threshold requirement. If no monitors meet the threshold requirement, then the function should return a numeric vector of length 0.
 #### Use example:
 
@@ -29,3 +33,10 @@ Takes a directory of data files and a threshold for complete cases and calculate
   head(cr)
   summary(cr)
   ```
+
+# emissionstrend.R
+
+Explores PM2.5 emissions in the U.S. from 1999–2008 using the National Emissions Inventory database.
+
+Link to the data use on this project -> https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip
+
