@@ -4,20 +4,6 @@
 
 Welcome to R_Small_Projects-! This repository contains a collection of small projects in R that I have worked on. Each project serves as a standalone example of different techniques, concepts, and applications in R programming.
 
-## Projects Included
-
-The repository includes various small projects covering topics such as:
-
-Data Analysis - pollutantmean.R, hospital_analysis.R
-
-Data Visualization - 
-
-Statistical modeling -
-
-Machine learning -
-
-Automation and scripting -
-
 ## Repository Structure
 
 Each project is organized in its own directory, typically containing:
@@ -43,9 +29,5 @@ Ensure you have R installed along with necessary packages. If a project requires
 ## Contributions
 
 Currently, this is a personal repository, but if you have suggestions, feel free to open an issue or submit a pull request!
-
-## License
-
-This repository is shared under the MIT License. You are free to use, modify, and distribute the code with proper attribution.
 
 Feel free to explore and use these projects for learning and inspiration!
