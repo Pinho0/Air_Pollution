@@ -2,7 +2,7 @@
 
 ## Overview
 
-Welcome to R_Small_Projects-! This repository contains a collection of small projects in R that I have worked on. Each project serves as a standalone example of different techniques, concepts, and applications in R programming.
+Welcome to R_Small_Projects! This repository contains a collection of small projects in R that I have worked on. Each project serves as a standalone example of different techniques, concepts, and applications in R programming.
 
 ## Repository Structure
 
@@ -24,7 +24,7 @@ Open the R script in RStudio or run it in your R environment.
 
 ## Requirements
 
-Ensure you have R installed along with necessary packages. If a project requires specific packages
+Ensure you have R installed along with necessary packages.
 
 ## Contributions
 
